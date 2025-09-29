@@ -1,0 +1,60 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My Awesome Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar (Same as index.html) -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">MyBrand</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content - Contact Form -->
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you. Fill out the form below and we'll get back to you shortly.</p>
+                
+                <!-- NOTE: This form is for display only. It needs a backend service to actually send emails. -->
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MyBrand. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
