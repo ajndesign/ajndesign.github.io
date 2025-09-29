@@ -4,31 +4,107 @@ html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page | My Awesome Product</title>
+    <title>Aura | Premium Handcrafted Goods</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Header & Navigation -->
     <header>
         <nav class="container">
-            <a href="index.html" class="logo">MyBrand</a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+            <a href="#" class="logo">Aura</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content - Hero Section -->
     <main>
+        <!-- Hero Section -->
         <section class="hero">
             <div class="container">
-                <h1>The Best Solution for Your Business</h1>
-                <p>We provide innovative solutions to help you grow. Join us and discover the difference.</p>
-                <!-- This is the Call to Action (CTA) button -->
-                <a href="contact.html" class="cta-button">Get Started Now</a>
+                <h1>Elegance in Every Thread</h1>
+                <p>Discover our collection of handcrafted goods, designed for a timeless lifestyle.</p>
+                <a href="#" class="btn btn-primary">Shop The Collection</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios/50/000000/shipping.png" alt="Shipping Icon" class="feature-icon"/>
+                    <h3>Free Shipping</h3>
+                    <p>On all orders over $50.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios/50/000000/leaf.png" alt="Leaf Icon" class="feature-icon"/>
+                    <h3>Sustainable Materials</h3>
+                    <p>Ethically sourced and crafted.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios/50/000000/like.png" alt="Quality Icon" class="feature-icon"/>
+                    <h3>Highest Quality</h3>
+                    <p>Guaranteed for life.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <img src="https://picsum.photos/id/1025/400/500" alt="Product Name 1">
+                        <h3>Artisan Leather Wallet</h3>
+                        <p class="price">$79.99</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <img src="https://picsum.photos/id/24/400/500" alt="Product Name 2">
+                        <h3>Ceramic Pour-Over</h3>
+                        <p class="price">$45.00</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <img src="https://picsum.photos/id/1060/400/500" alt="Product Name 3">
+                        <h3>Linen Throw Blanket</h3>
+                        <p class="price">$120.00</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonial-card">
+                    <blockquote>
+                        "The quality is absolutely incredible. You can feel the craftsmanship in every piece. I'll be a customer for life!"
+                    </blockquote>
+                    <cite>- Alex Johnson</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Join The Club</h2>
+                <p>Sign up for our newsletter to get 10% off your first order and stay updated on new arrivals.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
             </div>
         </section>
     </main>
@@ -36,7 +112,8 @@ html
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 MyBrand. All Rights Reserved.</p>
+            <p>&copy; 2023 Aura. All Rights Reserved.</p>
+            <!-- Add social media links here if you want -->
         </div>
     </footer>
 
